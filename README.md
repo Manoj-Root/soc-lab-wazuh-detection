@@ -26,3 +26,11 @@ SSH Brute Force Attack
 Windows / Linux Targets
         ↓
 Wazuh Agent → Wazuh Server → Dashboard
+
+🖥️ Wazuh Setup
+🔹 Wazuh Dashboard
+<img src="screenshots/wazuh-dashboard.png" width="800"/>
+🔹 Wazuh Web Interface
+<img src="screenshots/wazuh-webpage.png" width="800"/>
+🔹 Wazuh Endpoints (Agents)
+<img src="screenshots/wazuh-endpoints.png" width="800"/>
