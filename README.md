@@ -83,4 +83,10 @@ Wazuh Agent → Wazuh Server → Dashboard
 
 #### • Event Correlation
 
+## 🔗 Connect With Me
+
+#### 💼 LinkedIn: https://linkedin.com/in/manoj-root
+#### 🌐 Portfolio: https://www.cybergodfather.me/
+#### 🐙 GitHub: https://github.com/Manoj-Root
+
 
