@@ -48,12 +48,15 @@ ip a
 #### • Configure server IP
 #### • Start agent service
 
-## To select the new agent click on add new agent button as shown below 
+## To select the new agent click on add new agent button as shown below & you can select the required agent OS like windows, linux or MacOS after selecting the required agent OS then give a name for the agent and then copy the given command and past that command in the agent system if you are using a windows agent the choose the powershell as admin and then past he command and the start the wazuh by using this command START WAZUH 
 
 <img src="screenshots/wazuh-new-agent.png" width="800"/>
+
+
+<img src="screenshots/wazuh-agent-selection.png" width="800"/>
 
 
 <img src="screenshots/wazuh-windows-agent.png" width="800"/>
 
 
-<img src="screenshots/wazuh-agent-selection.png" width="800"/>
+
