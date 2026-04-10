@@ -27,7 +27,7 @@ Windows / Linux Targets
         ↓
 Wazuh Agent → Wazuh Server → Dashboard
 
-🖥️ Wazuh Setup
+## 🖥️ Wazuh Setup
 🔹 Wazuh Dashboard
 <img src="screenshots/wazuh-dashboard.png" width="800"/>
 🔹 Wazuh Web Interface
