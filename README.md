@@ -29,14 +29,19 @@ Wazuh Agent → Wazuh Server → Dashboard
 ```
 
 ## 🖥️ Wazuh Setup
-###🔹 Wazuh Dashboard
+🔹 Wazuh Dashboard
 
 <img src="screenshots/wazuh-dashboard.png" width="800"/>
 
-###🔹 Wazuh Web Interface
+🔹 Wazuh Web Interface
 
 <img src="screenshots/wazuh-webpage.png" width="800"/>
 
-###🔹 Wazuh Endpoints (Agents)
+🔹 Wazuh Endpoints (Agents)
 
 <img src="screenshots/wazuh-endpoints.png" width="800"/>
+
+## 🚨 Attack Simulation – SSH Brute Force
+Simulated SSH login attempts from Kali Linux
+Generated multiple failed authentication logs
+Observed attack detection in Wazuh SIEM
