@@ -42,6 +42,8 @@ Wazuh Agent → Wazuh Server → Dashboard
 <img src="screenshots/wazuh-endpoints.png" width="800"/>
 
 ## 🚨 Attack Simulation – SSH Brute Force
-Simulated SSH login attempts from Kali Linux
-Generated multiple failed authentication logs
-Observed attack detection in Wazuh SIEM
+• Simulated SSH login attempts from Kali Linux
+
+• Generated multiple failed authentication logs
+
+• Observed attack detection in Wazuh SIEM
