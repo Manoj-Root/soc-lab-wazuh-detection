@@ -49,6 +49,13 @@ Wazuh Agent → Wazuh Server → Dashboard
 
 <img src="screenshots/wazuh-endpoints.png" width="800"/>
 
+## 🧠 MITRE ATT&CK Mapping
+
+| Technique | ID | Description |
+|----------|----|------------|
+| Brute Force | T1110 | Repeated login attempts using SSH |
+| Valid Accounts | T1078 | Successful login after multiple failures |
+
 
 ## 🚨 Attack Simulation – SSH Brute Force
 
@@ -57,6 +64,12 @@ Wazuh Agent → Wazuh Server → Dashboard
 • Generated multiple failed authentication logs
 
 • Observed attack detection in Wazuh SIEM
+
+## 🔍 Detection Logic
+
+- Multiple failed login attempts (Event ID 4625)
+- Followed by a successful login (Event ID 4624)
+- Indicates potential brute-force attack
 
 ## 🔍 Log Analysis
 
@@ -77,6 +90,19 @@ Wazuh Agent → Wazuh Server → Dashboard
 • Identified potential brute-force attack pattern
 
 <img src="screenshots/multiple-failed-attempt-events.png" width="700"/>
+
+## 🚀 Key Outcomes
+
+✔️ Built a SOC lab using Wazuh SIEM  
+✔️ Simulated SSH brute-force attacks  
+✔️ Detected authentication failures  
+✔️ Correlated logs to identify attack patterns  
+✔️ Performed alert investigation  
+
+## 💼 Use Case
+
+This project simulates a real SOC scenario where an analyst monitors authentication logs to detect brute-force attacks and investigates suspicious login patterns.
+
 
 ## 🎯 Skills Demonstrated
 
