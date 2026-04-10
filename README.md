@@ -29,9 +29,14 @@ Wazuh Agent → Wazuh Server → Dashboard
 ```
 
 ## 🖥️ Wazuh Setup
-🔹 Wazuh Dashboard
+###🔹 Wazuh Dashboard
+
 <img src="screenshots/wazuh-dashboard.png" width="800"/>
-🔹 Wazuh Web Interface
+
+###🔹 Wazuh Web Interface
+
 <img src="screenshots/wazuh-webpage.png" width="800"/>
-🔹 Wazuh Endpoints (Agents)
+
+###🔹 Wazuh Endpoints (Agents)
+
 <img src="screenshots/wazuh-endpoints.png" width="800"/>
