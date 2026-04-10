@@ -1,6 +1,3 @@
-# soc-lab-wazuh-detection
-SOC Home Lab with Wazuh SIEM for security monitoring, SSH attack detection, and log analysis across Windows and Linux systems
-
 # 🛡️ SOC Home Lab – Wazuh SIEM Detection
 
 ![Wazuh](https://img.shields.io/badge/SIEM-Wazuh-blue)
@@ -8,6 +5,7 @@ SOC Home Lab with Wazuh SIEM for security monitoring, SSH attack detection, and 
 ![Attack](https://img.shields.io/badge/Attack-SSH%20Brute%20Force-red)
 ![Status](https://img.shields.io/badge/Status-Completed-success)
 
+SOC Home Lab with Wazuh SIEM for security monitoring, SSH attack detection, and log analysis across Windows and Linux systems
 ---
 
 ## 📌 Overview
