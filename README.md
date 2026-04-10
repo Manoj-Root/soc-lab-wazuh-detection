@@ -63,6 +63,12 @@ Wazuh Agent → Wazuh Server → Dashboard
 
 <img src="screenshots/login-success-log-analysis.png" width="700"/>
 
+ ## Multiple Failed Attempts Detection
+ 
+• Detected repeated login failures
 
+• Identified potential brute-force attack pattern
+
+<img src="screenshots/multiple-failed-attempt-events.png" width="700"/>
 
 
