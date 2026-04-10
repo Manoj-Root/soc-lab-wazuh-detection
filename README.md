@@ -73,14 +73,14 @@ Wazuh Agent → Wazuh Server → Dashboard
 
 ## 🎯 Skills Demonstrated
 
-•SIEM: Wazuh
+#### • SIEM: Wazuh
 
-•Log Analysis (Windows & Linux)
+#### • Log Analysis (Windows & Linux)
 
-•Security Monitoring & Alert Investigation
+#### • Security Monitoring & Alert Investigation
 
-•SSH Brute-force Attack Simulation
+#### • SSH Brute-force Attack Simulation
 
-•Event Correlation
+#### • Event Correlation
 
 
