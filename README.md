@@ -55,9 +55,9 @@ Wazuh Agent → Wazuh Server → Dashboard
 
 ### 🪟 Windows Log Analysis
 
-• Event ID 4625 → Failed login attempts
+#### • Event ID 4625 → Failed login attempts
 
-• Event ID 4624 → Successful login
+#### • Event ID 4624 → Successful login
 
 <img src="screenshots/failed-attempt-log-analysis.png" width="700"/> <img src="screenshots/login-success-log-analysis.png" width="700"/>
 
