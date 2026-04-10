@@ -47,3 +47,13 @@ ip a
 #### • Install Wazuh agent on Windows machine
 #### • Configure server IP
 #### • Start agent service
+
+## To select the new agent click on add new agent button as shown below 
+
+<img src="screenshots/wazuh-new-agent.png" width="800"/>
+
+
+<img src="screenshots/wazuh-windows-agent.png" width="800"/>
+
+
+<img src="screenshots/wazuh-agent-selection.png" width="800"/>
