@@ -71,4 +71,16 @@ Wazuh Agent → Wazuh Server → Dashboard
 
 <img src="screenshots/multiple-failed-attempt-events.png" width="700"/>
 
+## 🎯 Skills Demonstrated
+
+•SIEM: Wazuh
+
+•Log Analysis (Windows & Linux)
+
+•Security Monitoring & Alert Investigation
+
+•SSH Brute-force Attack Simulation
+
+•Event Correlation
+
 
