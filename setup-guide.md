@@ -23,6 +23,10 @@ This guide explains how I set up a SOC lab using the **Wazuh prebuilt OVA virtua
 4. Select the `.ova` file  
 5. Start the VM  
 
+<img src="screenshots/wazuh-VM.png" width="800"/>
+
+<img src="screenshots/wazuh-dashboard-status.png" width="800"/>
+
 ---
 
 ## 🌐 3. Access Wazuh Dashboard
