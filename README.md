@@ -14,6 +14,10 @@ This project demonstrates a **hands-on SOC (Security Operations Center) lab** wh
 
 The focus of this lab is to detect and analyze **SSH brute-force attacks**, perform **log analysis**, and understand how alerts are generated and investigated across Windows and Linux systems.
 
+#### ⚙️ Setup Guide
+##### 👉 [![Setup Guide](https://img.shields.io/badge/Setup-Guide-blue)](setup-guide.md)
+
+
 ---
 
 ## 🧭 Lab Architecture
