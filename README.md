@@ -36,7 +36,7 @@ Wazuh Agent → Wazuh Server → Dashboard
 
 ### Wazuh Dashboard
 
-<img src="screenshots/wazuh-dashboard.png" width="800"/>
+<img src="screenshots/wazuh-dashboard.png" width="800" style="border-radius:10px"/>
 
 ### Wazuh Endpoints (Agents)
 
@@ -59,6 +59,10 @@ Wazuh Agent → Wazuh Server → Dashboard
 
 #### • Event ID 4624 → Successful login
 
-<img src="screenshots/failed-attempt-log-analysis.png" width="700"/> <img src="screenshots/login-success-log-analysis.png" width="700"/>
+<img src="screenshots/failed-attempt-log-analysis.png" width="700"/> 
+
+<img src="screenshots/login-success-log-analysis.png" width="700"/>
+
+
 
 
