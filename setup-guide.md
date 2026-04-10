@@ -11,6 +11,8 @@ This guide explains how I set up a SOC lab using the **Wazuh prebuilt OVA virtua
 - Attacker Machine: Kali Linux
 - Target Systems: Windows / Linux
 
+<img src="screenshots/wazuh-ova-file.png" width="800"/>
+
 ---
 
 ## 📦 2. Import Wazuh OVA
