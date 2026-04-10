@@ -1,6 +1,6 @@
 # ⚙️ SOC Lab Setup Guide – Wazuh SIEM (OVA Deployment)
 
-This guide explains how I set up a SOC lab using the **Wazuh prebuilt OVA virtual machine** for monitoring and analyzing security events.
+This guide explains how I set up my SOC lab using the **Wazuh prebuilt OVA virtual machine** for monitoring and analyzing security events.
 
 ---
 
@@ -21,7 +21,25 @@ This guide explains how I set up a SOC lab using the **Wazuh prebuilt OVA virtua
 2. Open VirtualBox  
 3. Click **File → Import Appliance**  
 4. Select the `.ova` file  
-5. Start the VM  
+5. Start the VM
+
+After you completely install the VM then use this below commands to start the wazuh server
+
+```Linux cmd
+sudo su
+
+systemctl start wazuh-manager
+
+systemctl start wazuh-indexer
+
+systemctl start wazuh-dashboard
+```
+After this check the status of the services by using this commands 
+```Linux cmd
+systemctl status wazuh-manager
+
+systemctl status wazuh-dashboard
+```
 
 <img src="screenshots/wazuh-VM.png" width="800"/>
 
@@ -40,15 +58,26 @@ ip a
 • Login using default credentials it will be always admin:admin
 
 ```
-## 🔌 4. Add Agents
+## 🔌 Adding a New Wazuh Agent
 
-### Windows Agent:
+To add a new agent:
 
-#### • Install Wazuh agent on Windows machine
-#### • Configure server IP
-#### • Start agent service
+1. Go to the Wazuh Dashboard and click on **"Add new agent"**.  
+2. Select the required operating system (Windows, Linux, or macOS).  
+3. Enter a name for the agent.  
+4. Copy the generated installation command.
 
-## To select the new agent click on add new agent button as shown below & you can select the required agent OS like windows, linux or MacOS after selecting the required agent OS then give a name for the agent and then copy the given command and past that command in the agent system if you are using a windows agent the choose the powershell as admin and then past he command and the start the wazuh by using this command START WAZUH 
+---
+
+### 🪟 For Windows Agent
+
+1. Open **PowerShell as Administrator**.  
+2. Paste the copied command and execute it.  
+3. Start the Wazuh agent service:
+
+```powershell
+NET START wazuh
+```
 
 <img src="screenshots/wazuh-new-agent.png" width="800"/>
 
