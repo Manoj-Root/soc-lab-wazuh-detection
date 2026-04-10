@@ -6,9 +6,6 @@
 ![Status](https://img.shields.io/badge/Status-Completed-success)
 
 SOC Home Lab with Wazuh SIEM for security monitoring, SSH attack detection, and log analysis across Windows and Linux systems
-
- Wazuh Dashboard
-<img src="screenshots/wazuh-dashboard.png" width="800"/>
 ---
 
 ## 📌 Overview
@@ -29,6 +26,7 @@ SSH Brute Force Attack
 Windows / Linux Targets
         ↓
 Wazuh Agent → Wazuh Server → Dashboard
+```
 
 ## 🖥️ Wazuh Setup
 🔹 Wazuh Dashboard
