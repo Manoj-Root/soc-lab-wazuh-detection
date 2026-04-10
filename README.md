@@ -52,9 +52,13 @@ Wazuh Agent → Wazuh Server → Dashboard
 • Observed attack detection in Wazuh SIEM
 
 ## 🔍 Log Analysis
-🪟 Windows Log Analysis
+
+# 🪟 Windows Log Analysis
+
 • Event ID 4625 → Failed login attempts
+
 • Event ID 4624 → Successful login
+
 <img src="screenshots/failed-attempt-log-analysis.png" width="700"/> <img src="screenshots/login-success-log-analysis.png" width="700"/>
 
 
